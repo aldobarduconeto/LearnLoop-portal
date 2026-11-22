@@ -1,0 +1,2 @@
+AppFiles/LearnLoop.apk filter=lfs diff=lfs merge=lfs -text
+AppFiles/LearnLoop-Setup.exe filter=lfs diff=lfs merge=lfs -text

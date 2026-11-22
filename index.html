@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Organize seus estudos, pratique com exercícios, revise com flashcards e tire dúvidas com um tutor de IA local.">
+  <title>LearnLoop | Seu próximo passo nos estudos</title>
+  <link rel="icon" href="assets/icon.png">
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <header class="top wrap">
+    <a class="brand" href="#"><img src="assets/icon.png" alt="" width="36" height="36">LearnLoop</a>
+    <nav aria-label="Navegação principal"><a href="#recursos">Recursos</a><a href="#comecar">Como começar</a><a href="#tutor">Tutor local</a><a href="#perguntas">Perguntas</a></nav>
+    <div class="header-actions">
+      <button class="button outline theme-toggle" type="button" hidden><span class="theme-icon" aria-hidden="true">☀</span><span class="theme-label">Tema claro</span></button>
+      <a class="button primary" href="downloads.html">Downloads</a>
+    </div>
+  </header>
+  <main id="conteudo">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">Seu espaço de estudo</p>
+        <h1>Estude com foco.<br><em>Revise no seu ritmo.</em></h1>
+        <p>Reúna materiais em trilhas, pratique com exercícios, revise com flashcards e tire dúvidas com um tutor de IA que roda no seu dispositivo.</p>
+        <div class="actions"><a class="button primary" href="#comecar">Como começar</a><a class="button outline" href="#recursos">Explorar recursos</a></div>
+      </div>
+      <figure class="hero-shot">
+        <div class="window"><span></span><span></span><span></span><b>LearnLoop</b></div>
+        <img src="assets/home-desktop.png" alt="Tela inicial do LearnLoop no desktop, com a navegação lateral e a área de trilhas de estudo">
+        <figcaption>Tela inicial do LearnLoop</figcaption>
+      </figure>
+    </section>
+    <div class="strip"><div class="wrap"><span>Trilhas de estudo</span><span>Exercícios e simulados</span><span>Revisão com flashcards</span><span>Tutor com IA local</span></div></div>
+    <section class="wrap section" id="recursos">
+      <p class="eyebrow">Recursos</p>
+      <h2>Do primeiro resumo à próxima revisão.</h2>
+      <p class="intro">Explore as telas do LearnLoop e veja como cada recurso cabe na sua rotina de estudo.</p>
+      <div class="gallery">
+        <div class="choices">
+          <button type="button" data-screen="home-desktop" aria-pressed="true"><strong>Organize suas trilhas</strong><span>Agrupe resumos, vídeos, podcasts e materiais importados por tema.</span></button>
+          <button type="button" data-screen="simulado-exercicios" aria-pressed="false"><strong>Pratique com exercícios</strong><span>Responda questões e retome as que precisam de reforço.</span></button>
+          <button type="button" data-screen="simulado-flashcards" aria-pressed="false"><strong>Revise com flashcards</strong><span>Tente responder antes de virar o cartão e repita os mais difíceis.</span></button>
+          <button type="button" data-screen="simulado-estatisticas" aria-pressed="false"><strong>Acompanhe seu progresso</strong><span>Veja sua sequência de estudo, seu desempenho e seu histórico de revisões.</span></button>
+        </div>
+        <figure class="gallery-shot"><img id="screen" src="assets/home-desktop.png" alt="Tela inicial do LearnLoop" loading="lazy"><figcaption id="screen-caption" aria-live="polite">Organize suas trilhas</figcaption></figure>
+      </div>
+      <div class="feature-grid">
+        <article><h3>Agenda e lembretes</h3><p>Planeje tarefas com prazo e prioridade, marque o que concluiu e acompanhe sua meta semanal de dias de estudo.</p></article>
+        <article><h3>Foco Pomodoro</h3><p>Reserve 15, 25 ou 45 minutos para uma atividade. Pause e retome o temporizador quando precisar.</p></article>
+        <article><h3>Biblioteca e arquivos</h3><p>Reúna resumos, videoaulas e podcasts. Importe PDFs, Markdown e TXT para gerar materiais para uma trilha.</p></article>
+      </div>
+    </section>
+    <section class="wrap section guide" id="comecar">
+      <p class="eyebrow">Primeiros passos</p>
+      <h2>Monte sua primeira trilha.</h2>
+      <ol class="steps">
+        <li><h3>Defina o que estudar</h3><p>Abra <strong>Novo estudo</strong> e escolha categoria, tema e nível. Defina um foco específico e ajuste o idioma conforme necessário.</p></li>
+        <li><h3>Gere e salve os materiais</h3><p>Selecione <strong>Gerar</strong>, confira a prévia e salve a trilha. Ative <strong>Atualizar fontes na internet</strong> se quiser consultar fontes recentes durante a geração.</p></li>
+        <li><h3>Pratique e acompanhe</h3><p>Abra a trilha para ler os materiais, responder exercícios e revisar flashcards. Planeje a próxima sessão na <strong>Agenda de estudos</strong> e confira o histórico em <strong>Estatísticas</strong>.</p></li>
+      </ol>
+    </section>
+    <section class="tutor" id="tutor">
+      <div class="wrap section tutor-grid">
+        <div><p class="eyebrow">Tutor com IA local</p><h2>Uma dúvida vira uma sessão de prática.</h2><p>Peça um exemplo guiado, responda a um simulado interativo ou monte um plano de revisão. As respostas são geradas no dispositivo.</p><details><summary>Como configurar o tutor</summary><ol><li>Em <strong>Diagnóstico IA</strong>, abra <strong>Configurações da IA</strong>.</li><li>Use <strong>Baixar Modelo Agora</strong> para baixar o Gemma 4 E2B ou vincule um arquivo <code>.litertlm</code> compatível.</li><li>Selecione <strong>Abrir Tutor Chat</strong> e escolha o tema ou material que quer estudar.</li></ol></details></div>
+        <figure><img src="assets/simulado-tutor-ia.png" alt="Tela simulada do tutor do LearnLoop apresentando um exemplo guiado" loading="lazy"><figcaption>Exemplo simulado de uma sessão com o tutor</figcaption></figure>
+      </div>
+    </section>
+    <section class="wrap section faq" id="perguntas">
+      <div><p class="eyebrow">Perguntas frequentes</p><h2>Antes de começar.</h2></div>
+      <div>
+        <details><summary>Posso estudar sem internet?</summary><p>Sim. Trilhas salvas, resumos locais, exercícios, flashcards e sessões de foco funcionam offline. O tutor requer um modelo já baixado ou vinculado. Busca de materiais e reprodução de mídia remota precisam de conexão.</p></details>
+        <details><summary>Posso usar meus próprios materiais?</summary><p>Você pode importar PDFs com texto, arquivos Markdown ou TXT de até 25 MiB. PDFs digitalizados precisam de OCR antes da importação.</p></details>
+        <details><summary>Como sincronizo meus dispositivos?</summary><p>Conecte os dois dispositivos à mesma rede e mantenha o LearnLoop aberto em ambos. Em <strong>Configurações</strong>, escolha <strong>Dispositivo principal</strong> e ative a sincronização. No segundo aparelho, use <strong>Conectar a outro dispositivo</strong> e informe o IP local e o código exibidos no primeiro.</p><p>A sincronização troca trilhas, materiais compatíveis e progresso. Use uma rede de confiança, pois a transferência usa HTTP sem criptografia.</p></details>
+        <details><summary>Em quais plataformas o aplicativo roda?</summary><p>O projeto tem versões para Android 11 ou superior, Windows, Linux, macOS e iOS. A disponibilidade dos arquivos depende da versão publicada. O motor de IA local tem requisitos próprios de arquitetura e hardware.</p></details>
+      </div>
+    </section>
+    <section class="wrap section" id="downloads">
+      <div class="cta"><h2>Downloads do LearnLoop</h2><p>Confira a disponibilidade dos instaladores e as plataformas compatíveis.</p><a class="button primary" href="downloads.html">Ir para downloads</a></div>
+    </section>
+  </main>
+  <footer class="wrap footer"><a class="brand" href="#"><img src="assets/icon.png" alt="" width="30" height="30">LearnLoop</a><a href="#conteudo">Voltar ao início</a></footer>
+  <script src="gallery.js"></script>
+</body>
+</html>
